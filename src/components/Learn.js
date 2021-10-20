@@ -17,7 +17,7 @@ class Learn extends React.Component {
         return (
             <div>
                 <input type="text" value={this.state.name} onChange={this.handleChange}/>
-                <button style={{"margin-left":"10px"}} onClick={this.sendDataToParent}>Send Data To Parent</button>
+                <button style={{"margin-left":"20px"}} onClick={this.sendDataToParent}>Send Data To Parent</button>
             </div>
             );
     }
