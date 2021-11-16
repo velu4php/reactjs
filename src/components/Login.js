@@ -33,7 +33,6 @@ class Login extends React.Component {
         });
     }
     render() {
-      console.log(this.state);
         const LoginForm = <form id="loginform"  onSubmit={this.handleSubmit.bind(this)} className="form-vertical">
           <section className="form-08">
         <div className="container">
