@@ -52,17 +52,6 @@ class Login extends React.Component {
                   <label>Enter Password</label>
                   <input type="password" name="password" className="form-control" type="text" placeholder="Enter Password" required="" aria-required="true"  onChange={this.onchangeLogin} value={this.state.password}/>
                 </div>
-  
-                {/* <div className="checkbox mb-0 form-group">
-                  <div className="form-check">
-                    <input className="form-check-input" type="checkbox" value="" id="" />
-                    <label className="form-check-label" for="">
-                      Remember me
-                    </label>
-                  </div>
-                  <a href="#">Forgot Password</a>
-                </div> */}
-  
                 <div className="form-group">
                   <div className="_btn_04">
                     <button type="submit">Login</button>
